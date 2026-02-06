@@ -1,6 +1,8 @@
 fastapi
 uvicorn
-torch
-transformers
-pydantic
 numpy
+pydantic
+transformers
+
+# CPU-only PyTorch
+torch==2.1.2+cpu
